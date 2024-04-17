@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    color:#6711b7;
+  color: #6711b7;
 }
 
 .weather-app {
@@ -13,19 +13,18 @@ a {
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(81, 80, 82, 0.712);
-  border-radius: 25px grey ;
-  padding: 55px ;
+  border-radius: 25px grey;
+  padding: 55px;
 }
 
-.weather-app :hover{
+.weather-app :hover {
   cursor: pointer;
 }
 
-header{
-    border-bottom: 1px solid rgba(128, 128, 128, 0.703);
-    color: #fff;
-    padding: 30px;
-    margin-top: -25px;
+header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.703);
+  color: #fff;
+  padding: 30px;
 }
 
 .input-text {
@@ -48,8 +47,8 @@ header{
   border-radius: 6px;
 }
 
-main{
-    padding: 100px;
+main {
+  padding: 15px 0;
 }
 
 .weather-app-data {
@@ -59,8 +58,6 @@ main{
 
 .weather-app-city {
   margin: 0;
-  margin-top: -100px;
-  margin-left:-100px ;
   font-size: 38px;
   line-height: 48px;
 }
@@ -70,7 +67,6 @@ main{
   color: rgb(0, 0, 0);
   line-height: 20px;
   font-weight: 500;
-  margin-left: -100px;
   margin-top: 0px;
 }
 
@@ -80,34 +76,28 @@ main{
 
 .weather-icon-temperature {
   display: flex;
-  margin-top: -100px;
 }
 
 .weather-icon {
   width: 88px;
   height: 88px;
-  margin-top: -40px;
 }
 
 .weather-temperature {
   font-size: 78px;
   line-height: 88px;
   font-weight: bold;
-  margin-top: -80px;
 }
 
 .weather-app-unit {
   margin-top: 9px;
   font-size: 28px;
-  margin-top: -80px;
 }
 
 .weather-forecast {
-  display:flex;
-  justify-content:space-around;
-  margin-top: -200px;
+  display: flex;
+  justify-content: space-around;
   font-family: "Lora", serif;
-
 }
 
 .weather-forecast-date {
@@ -115,7 +105,6 @@ main{
   color: rgb(3, 3, 3);
   font-size: 12px;
   line-height: 12px;
-  margin-top: -27px;
 }
 
 .weather-forecast-icon {
@@ -125,7 +114,6 @@ main{
 .weather-forecast-temperatures {
   text-align: center;
   color: #000;
-  margin-top: -10px;
   display: flex;
   justify-content: center;
 }
