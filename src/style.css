@@ -1,0 +1,133 @@
+body {
+  background-color: gray;
+  font-family: "Lora", serif;
+  border: none;
+}
+
+a {
+    color: #000;
+}
+
+.weather-app {
+  background: #e3e3e3;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px grey ;
+  padding: 30px;
+}
+
+.weather-app :hover{
+  cursor: pointer;
+}
+
+header{
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+
+.input-text {
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  width: 60%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-input {
+  background-color: #fff;
+  color: gray;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+}
+
+main{
+    padding: 30px;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.weather-app-details strong {
+  color: #a15ae4;
+}
+
+.weather-icon-temperature {
+  display: flex;
+}
+
+.weather-icon {
+  width: 88px;
+  height: 88px;
+}
+
+.weather-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
+
+.weather-forecast {
+  display:flex;
+  justify-content:space-around;
+  margin-top: 30px;
+  font-family: "Lora", serif;
+
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgb(3, 3, 3);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #a15ae4;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-forecast-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="weather-app">
+        <header>
+            <form class="search-form" id="search-form">
+                <input 
+                type="text" 
+                placeholder="Enter a city..." 
+                required
+                 class="input-text" 
+                 id="input-text" 
+                 />
+
+                <input type="submit" value="search" class="search-input">
+            </form>
+        </header>
+        <main>
+            <div class="weather-app-data"></div>
+            <div>
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
+            <div class="weather-forecast">
+                <p class="weather-app-details">
+                    <span id="time"></span>,
+                    <span id="description"></span>
+                    <br />
+                    Humidity: <strong id="humidity" class="humidity"></strong>, Wind:
+                    <strong id="wind-speed" class="wind-speed"></strong>
+                </p>
+            </div>
+                <div class="weather-icon-temperature"></div>
+                <div id="weather-icon" class="weather-icon"></div>
+                <div id="weather-temperature" class="weather-temperature"></div>
+                <div id="weather-app-unit" class="weather-app-unit">°C</div>
+            </div>
+        </div>
+        <div class="weather-forecast">
+            <div class="weather-forecast-day">
+                <div class="weather-forecast-date">Tue</div>
+                <div class="weather-forecast-icon">🌤️</div>
+                <div class="weather-forecast-temperatures">
+                    <div class="weather-forecast-temperature">
+                        <strong>15º</strong>
+                    </div>
+                    <div class="weather-forecast-temperature">9º</div>
+                </div>
+            </div>
+        </div>
+            </main>
+            <footer>
+                This project was coded by <a
+                    href="https://www.google.com/search?q=Masindi+Managa&oq=Masindi+Managa&gs_lcrp=EgZjaHJvbWUyCAgAEEUYJxg5MgoIARAAGAoYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzc2OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
+                    target="_blank"> Masindi Managa </a>, is <a href="https://github.com/MasindiManaga/Weather-Forecast-App"
+                    target="_blank">open-sourced on GitHub</a> and <a href="https://cold-or-hot-today.netlify.app/"
+                    target="_blank"> hosted on Netlify</a>
+            </footer>
+    </div>
+    <script src="D:\Projects\Weather-Forecast-App\src\script.js"></script>
+</body>
+
+</html>
