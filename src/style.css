@@ -90,7 +90,7 @@ main{
 }
 
 .weather-temperature {
-  font-size: 88px;
+  font-size: 78px;
   line-height: 88px;
   font-weight: bold;
   margin-top: -80px;
@@ -121,11 +121,12 @@ main{
 .weather-forecast-icon {
   font-size: 28px;
   text-align: center;
+  margin: -25px;
 }
 .weather-forecast-temperatures {
   text-align: center;
   color: #000;
-  margin-top: 10px;
+  margin-top: -10px;
   display: flex;
   justify-content: center;
 }
